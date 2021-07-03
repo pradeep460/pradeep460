@@ -1,0 +1,26 @@
+<!--Take a range of number from the user and make a odd number loop-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Odd Number List
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u> ODD NUMBER LIST </u>
+            </h3>
+        </center>
+        <script>
+            document.write("The list Of Odd number is :<br>");
+            var number,i;
+            number = prompt("Enter the range of Number");
+            for(i=1; i<=number; i+=2)
+            {
+                document.write("Your odd number is "+i+"<br>")
+            }
+        </script>
+    </body>
+</html>
